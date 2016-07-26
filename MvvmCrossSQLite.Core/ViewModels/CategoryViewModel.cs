@@ -2,6 +2,7 @@
 using MvvmCross.Core.ViewModels;
 using MvvmCrossSQLite.Core.Models;
 using MvvmCrossSQLite.Core.Services;
+using SQLiteNetExtensions.Extensions;
 
 namespace MvvmCrossSQLite.Core.ViewModels
 {
@@ -19,7 +20,7 @@ namespace MvvmCrossSQLite.Core.ViewModels
 
             if (category != null)
             {
-                Products = category.Products;
+                Products = _dBService.GetContext().GetWithChildren<Category>(category.Id, recursive: true).Products;
             }
         }
 

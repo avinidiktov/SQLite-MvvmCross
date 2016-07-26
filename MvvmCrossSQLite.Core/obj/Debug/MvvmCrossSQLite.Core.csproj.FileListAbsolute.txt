@@ -34,5 +34,3 @@ C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\obj\Debug\MvvmCrossS
 C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\obj\Debug\MvvmCrossSQLite.Core.csprojResolveAssemblyReference.cache
 C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\obj\Debug\MvvmCrossSQLite.Core.dll.mdb
 C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\bin\Debug\MvvmCrossSQLite.Core.dll.mdb
-C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\obj\Debug\MvvmCrossSQLite.Core.dll.mdb
-C:\dev\xamarin\Samples\MvvmCrossSQLite\MvvmCrossSQLite.Core\bin\Debug\MvvmCrossSQLite.Core.dll.mdb
