@@ -1,47 +1,66 @@
-# Windows image file caches
+#Autosave files
+*~
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+#Mac bundle stuff
+*.dmg
+*.app
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#resharper
+*_Resharper.*
+*.Resharper
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+#dotCover
+*.dotCover
 
-# Windows shortcuts
-*.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
 
-# OSX
-# =========================
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Visual Studio 2015 cache/options directory
+.vs/
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
